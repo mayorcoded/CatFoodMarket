@@ -126,11 +126,6 @@ To serve project.
 You are be able to see the project on 3000 port. If you have a specific settings, please set them in `webpack.config.js -> devServer`
 
 
-### Known Bugs
-
-- A store owner can only deleted by owner. Because products is belongs to store owner. there must be a valid reason for deletion
-- Some events are using in CadFoods should be organized. Some event might be affect another website visitor, especially in listings.
-
 ### Planed Features
 - Upgradeable contract: Upgradable contracts are so important for production. Also developing the contracts aren't upgradable is hard to manage.
 You have to add your data again and again... This consumes your developing time and your life energy. Logical changes in smart contracts won't affect your data if these data are located in safe area.
