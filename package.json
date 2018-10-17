@@ -1,0 +1,56 @@
+{
+  "name": "consensys-final-project",
+  "version": "1.0.0",
+  "description": "Consensys Final Project",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "truffle test",
+    "dev": "webpack-dev-server --mode development --watch-poll",
+    "build": "webpack --mode production",
+    "coverage": "SOLIDITY_COVERAGE=true ./node_modules/.bin/solidity-coverage",
+    "solhint": "solhint \"contracts/**/*.sol\"",
+    "publish-rinkeby": "truffle migrate --network rinkeby --compile-all --reset",
+    "deploy-to-heroku": "npm run build && git push heroku -f",
+    "deploy-to-origin": "npm run build && git push origin -f"
+  },
+  "author": "mtudonu85@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "dotenv": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ipfs-api": "^23.0.0",
+    "openzeppelin-solidity": "^1.11.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "semantic-ui-react": "^0.82.1",
+    "solidity-coverage": "^0.5.7",
+    "truffle-assertions": "^0.3.1",
+    "truffle-contract": "^3.0.6",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "^1.0.0-beta.35",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
+}
