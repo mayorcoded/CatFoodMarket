@@ -1,7 +1,7 @@
 {
-  "name": "consensys-final-project",
+  "name": "cat-food-market",
   "version": "1.0.0",
-  "description": "Consensys Final Project",
+  "description": "Cat Food Market",
   "main": "server.js",
   "directories": {
     "test": "test"
