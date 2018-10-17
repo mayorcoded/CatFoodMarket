@@ -45,8 +45,6 @@ All user types can purchase a product (owner, admins, store owners).
 
 [click here](documentation/screenshots.md) to see some screenshots.
 
-I've uploaded a video to show these steps. If you would like to watch, please visit https://www.youtube.com/watch?v=NqgtopRKYxM
-
 
 ## Technical Overview
 
